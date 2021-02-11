@@ -25,7 +25,7 @@ export const StartGame = ({ onGameStart }: Props) => {
       <Field label="Width" type="number" value={width} onChange={setWidth} min={8} max={40} />
       <Field label="Height" type="number" value={height} onChange={setHeight} min={8} max={40} />
       <Field label="Speed (steps per second)" type="number" value={speed} onChange={setSpeed} min={1} max={20} />
-      <Button>Начать игру</Button>
+      <Button>Start The Game</Button>
     </form>
   );
 };
